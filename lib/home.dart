@@ -154,7 +154,7 @@ class _HomeState extends State<Home> {
   void _showAlertInfo(BuildContext context) {
     var alert = new AlertDialog(
       title: Text("Info"),
-      content: Text("Made With Flutter by Hemshree"),
+      content: Text("Made With Flutter"),
       actions: <Widget>[
         FlatButton(
           onPressed: () {
